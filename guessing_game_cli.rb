@@ -25,4 +25,4 @@ end
 
 #what did i learn, logic of your condition is important. If you only present your conditional with two options but you have a third, it will never go to the third option. so i organized to edge case or exit first then not working then working. 
 
-also learned that .to_s just returns the value as a string,so it needs to be assigned to a variable to be stored 
+#also learned that .to_s just returns the value as a string,so it needs to be assigned to a variable to be stored. This is because we wanted to compare an integer to a string and i had to match the value types in order to evaluate correctly. 
